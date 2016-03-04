@@ -15,7 +15,7 @@ module.exports = function (grunt) {
         // Read npm argument and set the dynamic server environment or use default configuration.
         // Syntax example for npm 2.0 parameters: $ npm run-script singleProd -- --pid=xxx --cid=123
         PROJECT_ID = grunt.option('pid') || 'wishlist2',
-        CLIENT_ID = grunt.option('cid') || 'mRJwWys3b8ttobpMypG0LznNNhKqPm',
+        CLIENT_ID = grunt.option('cid') || 'mRJwWys3b8ttobpMypG0LznNNhKqPmXK',
         REDIRECT_URI = 'http://example.com',
 
         PROJECT_ID_PATH = './public/js/app/shared/app-config.js',
